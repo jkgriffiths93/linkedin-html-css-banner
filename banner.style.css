@@ -1,10 +1,13 @@
 .banner-div {
   width: 1392px;
   height: 348px;
+  border-radius: 5px 5px 0 0;
 }
+
 .content-container {
   padding: 20px;
 }
+
 .profile-pic {
   width: 313px;
   height: 313px;
@@ -12,4 +15,100 @@
   position: relative;
   top: -190px;
   left: 70px;
+}
+
+.name-container {
+  padding: 60px;
+}
+
+.name-title {
+  font-size: 6rem;
+}
+
+.name-bullets {
+  padding: 0 100px 0 100px;
+  font-size: 1.25rem;
+}
+
+.name-icon {
+  margin: 0 15px 0 0;
+  font-size: 2rem;
+}
+
+.space {
+  width: vw;
+  height: 200px;
+}
+
+.diagonal-lines {
+  position: absolute;
+  top: -390px;
+  left: 230px;
+  width: 800px;
+  height: 800px;
+  /* overflow: hidden; */
+}
+
+.diagonal-line {
+  position: absolute;
+  width: 100%;
+  height: 4px;
+  /* background-color: #000; Adjust color as needed */
+  transform-origin: top left;
+  border: 0;
+}
+
+.line-1 {
+  transform: rotate(45deg);
+  top: 50%;
+}
+
+.line-2 {
+  transform: rotate(45deg);
+  top: 50%;
+  left: -30px;
+}
+
+.line-3 {
+  transform: rotate(135deg);
+  top: 400px;
+  left: 100px;
+}
+
+.line-4 {
+  transform: rotate(135deg);
+  top: 200px;
+  left: 270px;
+}
+
+.skill-title-container {
+  margin: auto;
+}
+
+.skill-title {
+  font-size: 6.5rem;
+  /* margin: auto 0; */
+  line-height: 1.2;
+}
+
+.skill-card-container {
+  margin: auto 0;
+  padding: 0 15%;
+}
+
+.skill-card {
+  height: 60px;
+  width: 80%;
+  margin: 15px 30px;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center; /* Align content vertically */
+  justify-content: flex-start; /* Align content horizontally */
+}
+
+.skill-icon {
+  /* margin: 0 20px; */
+  font-size: 2.5rem;
+  width: 80px;
 }
